@@ -21,3 +21,8 @@ sudo apt install build-essential curl file git
 sudo apt install fonts-powerline
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Grub-Customizer
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt-get update
+sudo apt-get install grub-customizer -y
