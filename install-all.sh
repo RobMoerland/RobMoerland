@@ -7,6 +7,7 @@ sudo apt install chromium-browser
 sudo apt install network-manager-openvpn-gnome
 
 #Citrix Workspace
+# browse https://www.citrix.com/downloads/citrix-receiver/linux/receiver-for-linux-latest.html
 sudo dpkg -i ./icaclient_21.12.0.18_amd64.deb
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 
@@ -26,3 +27,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo apt-get update
 sudo apt-get install grub-customizer -y
+
+# Spotify client
+curl -sL https://spocon.github.io/spocon/script/install_lovspotify.sh | sh
